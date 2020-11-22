@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Compiler</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./scripts.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container" style="margin-top:25px;">
+
+        <div class="form-group"><label><b>Type Your Code </b></label>
+            <select class="form-control" id="sel1">
+                <option id="python">Python</option>
+                <option id="javascript">Javascript</option>
+                <option id="c">C</option>
+                <option id="cpp">CPP</option>
+                <option id="java">Java</option>
+            </select>
+
+        </div>
+
+
+        <div id="codeInput">
+            <div class="form-group">
+                <textarea class="form-control" rows="15" id="code" placeholder="Write Your Code Here"></textarea>
+            </div>
+        </div>
+
+        <div id="outputConsole">
+
+            <div class="form-group">
+                <textarea class="form-control" rows="5" id="output" placeholder="OUTPUT:"></textarea>
+            </div>
+        </div>
+        <button id="compile" class="btn btn-warning" onclick="compile()">Compile</button>
+
+
+    </div>
+
+
+    
+</body>
+
+</html>

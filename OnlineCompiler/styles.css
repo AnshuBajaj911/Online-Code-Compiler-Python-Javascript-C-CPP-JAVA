@@ -1,0 +1,26 @@
+#codeInput {
+    width: 100%;
+    height: 70%;
+
+}
+
+#outputConsole {
+    width: 100%;
+    height: 30%;
+
+
+}
+
+#output {
+    color: white;
+    background-color: black;
+}
+
+#dpDown {
+    float: right;
+}
+
+#sel1 {
+    width: 20%;
+    float: right;
+}
