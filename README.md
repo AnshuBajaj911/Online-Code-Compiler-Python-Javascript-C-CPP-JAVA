@@ -3,5 +3,5 @@ Simple Online Compiler Which gives You the experience of writing code in text ed
 
 # Way to Access
 Go to the URL and simply type your code in the Textarea.
-Then before clicking on Compile button do select the language you are working in from the dropdown in the top left corner. 
+Then before clicking on Compile button do select the language you are working in from the dropdown in the top right corner. 
 Click on Compile and wait for 4-5 Seconds and the output of your code will be displayed in the Output Console. 
